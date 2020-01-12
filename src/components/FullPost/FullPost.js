@@ -22,6 +22,7 @@ class FullPost extends Component {
 
     render () {
         let post = <p style={{textAlign: 'center'}}>Please select a Post!</p>;
+<<<<<<< HEAD
         if (this.props.id){
             post = <p style={{textAlign: 'center'}}>Loading</p>;
         }
@@ -30,6 +31,13 @@ class FullPost extends Component {
                 <div className="FullPost">
                     <h1>{this.state.loadedPost.title}}</h1>
                     <p>{this.state.loadedPost.body}}</p>
+=======
+        if (this.props.id) {
+            post = (
+                <div className="FullPost">
+                    <h1>Title</h1>
+                    <p>Content</p>
+>>>>>>> refs/remotes/origin/master
                     <div className="Edit">
                         <button className="Delete">Delete</button>
                     </div>
