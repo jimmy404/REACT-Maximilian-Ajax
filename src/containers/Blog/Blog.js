@@ -8,7 +8,7 @@ import NewPost from './NewPost/NewPost';
 //import FullPost from './FullPost/FullPost';
 class Blog extends Component {
     state= {
-        auth: false
+        auth: true
     }
     render () {
         return (
